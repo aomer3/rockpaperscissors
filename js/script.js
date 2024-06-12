@@ -183,6 +183,7 @@ function playRound(selectedButton, round){
         body.append(divScores);
     }
     else if (humanScore === 5){
+        divHeader.textContent = "GAME OVER";
         let humanWins = document.createElement("h2");
         humanWins.textContent = "You Win!";
         humanWins.style.textAlign = "center";
@@ -192,6 +193,7 @@ function playRound(selectedButton, round){
         body.append(divScores);
     }
     else if (computerScore === 5){
+        divHeader.textContent = "GAME OVER";
         let compterWins = document.createElement("h2");
         compterWins.textContent = "Computer Wins!";
         compterWins.style.textAlign = "center";
