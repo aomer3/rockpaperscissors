@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header {
+    margin: 20px 0px;
+}
+
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+#button-rock {
+    background-color: red;
+}
+
+#button-paper {
+    background-color: cyan;
+}
+
+#button-scissors {
+    background-color: yellow;
+}
+
+#button-reset {
+    background-color: orange;
+}
